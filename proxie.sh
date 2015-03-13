@@ -64,6 +64,5 @@ then
   REMOTE=localhost:80;
 fi
 
-echo "ssh $SERVER -N -L $PORT:$REMOTE";
 ssh $SERVER -N -L $PORT:$REMOTE
 
